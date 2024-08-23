@@ -12,4 +12,4 @@ valor_maximo_parcela = salario_base*0.3
 if valor_parcela <= valor_maximo_parcela:
     print(f"O empréstimo pode ser concedido.\nO valor da parcela será de R${valor_parcela:.2f} em {anos_pagamento*12} meses")
 else:
-    print(f"Infelizmente o empréstimo não poderá ser liberado nessas condições.\nA parcela ficaria com o valor de {valor_parcela:.2f} e excede 30% de sua renda bruta.")
+    print(f"Infelizmente o empréstimo não poderá ser liberado nessas condições.\nA parcela ficaria com o valor de {valor_parcela:.2f} e excede 30% de sua renda.")
