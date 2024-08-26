@@ -4,6 +4,8 @@ print("Vamos verificar sua situação com relação ao alistamento militar!!!")
 ano_nascimento = int(input("Informe o ano de nascimento: "))
 ano_atual = datetime.datetime.now().year
 idade = (ano_atual-ano_nascimento)
+
+#condições
 if idade < 18:
     print(f"Você tem {idade} anos, ainda faltam {18-idade} ano(s) para o período de alistamento.")
 elif idade == 18:
